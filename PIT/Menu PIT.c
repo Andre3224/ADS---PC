@@ -34,6 +34,19 @@ main(){
 				printf("\nEntre com uma opcao: ");
 				scanf("%d",op2);
 				
+				while (op2!= 4){
+				
+				
+				
+					printf("\n---Menu da Reserva---"); 
+					printf("\n1 incluir");
+					printf("\n2 alterar");
+					printf("\n3 excluir");
+					printf("\n4 retornar");
+					printf("\nEntre com uma opcao: ");
+					scanf("%d",op2);
+				
+				}
 				break;
 			case 3:
 				printf("\n---Menu do Lancamento---");
